@@ -1,4 +1,3 @@
-// Mobile menu toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -108,4 +107,5 @@ window.addEventListener('scroll', () => {
         navbar.style.background = 'white';
         navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
     }
+
 });
