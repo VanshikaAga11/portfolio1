@@ -17,7 +17,7 @@ body {
     padding: 0 20px;
 }
 
-/* Navigation - Dark Theme */
+
 .navbar {
     background: #111111;
     box-shadow: 0 2px 10px rgba(0,0,0,0.5);
@@ -42,7 +42,7 @@ body {
 }
 
 .highlight {
-    color: #6d8eff;  /* Brighter blue for dark theme */
+    color: #6d8eff;
 }
 
 .nav-menu {
@@ -71,7 +71,6 @@ body {
     color: #ffffff;
 }
 
-/* Hero Section - Dark Theme */
 .hero {
     padding: 150px 0 80px;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -199,7 +198,6 @@ body {
     margin-bottom: 3rem;
 }
 
-/* Services Section - Dark Theme */
 .services {
     padding: 80px 0;
     background: #111111;
@@ -273,7 +271,7 @@ body {
     border: 1px solid #333;
 }
 
-/* Stats Section - Dark Theme */
+
 .stats {
     padding: 60px 0;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -307,8 +305,6 @@ body {
     margin-left: 2px;
 }
 
-/* About Section - Dark Theme */
-/* About Section - Clean & Simple */
 .about {
     padding: 80px 0;
     background: #111111;
@@ -405,7 +401,7 @@ body {
     100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
 }
 
-/* Responsive Design for About Section */
+
 @media (max-width: 768px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -432,7 +428,6 @@ body {
 }
 
 
-/* Education Section - Dark Theme */
 .education {
     padding: 80px 0;
     background: #0a0a0a;
@@ -508,7 +503,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* Technologies Section - Dark Theme */
+
 .technologies {
     padding: 60px 0;
     background: #111111;
@@ -542,7 +537,7 @@ body {
     box-shadow: 0 4px 15px rgba(109,142,255,0.3);
 }
 
-/* Projects Section - Dark Theme */
+
 .projects {
     padding: 80px 0;
     background: #0a0a0a;
@@ -659,7 +654,6 @@ body {
     color: #ffffff;
 }
 
-/* Contact Section - Dark Theme */
 .contact {
     padding: 80px 0;
     background: #111111;
@@ -774,7 +768,6 @@ body {
     padding: 1rem;
 }
 
-/* Footer - Dark Theme */
 footer {
     background: #0a0a0a;
     color: #ffffff;
@@ -791,7 +784,7 @@ footer p {
     color: #b0b0b0;
 }
 
-/* Responsive Design */
+
 @media (max-width: 992px) {
     .hero-title {
         font-size: 2.5rem;
@@ -868,7 +861,7 @@ footer p {
     }
 }
 
-/* Status Badge for In Progress Projects */
+
 .status-badge {
     display: inline-block;
     background: #f39c12;
@@ -896,7 +889,7 @@ footer p {
     opacity: 0.9;
 }
 
-/* Optional: Add a subtle overlay for in-progress projects */
+
 .project-card.in-progress::after {
     content: '';
     position: absolute;
@@ -925,7 +918,6 @@ footer p {
     object-fit: cover;
 }
 
-/* FORCE FIX - Add this at the VERY END of your CSS file */
 .navbar {
     background: #111111 !important;
     display: block !important;
@@ -939,4 +931,5 @@ footer p {
 
 .nav-menu a {
     color: #ffffff !important;
+
 }
